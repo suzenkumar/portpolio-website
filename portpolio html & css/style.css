@@ -1,0 +1,374 @@
+*{
+			margin:0%;
+			padding:0%;
+		}
+		body{
+			background-color: rgb(18,18,62);
+			color:white;
+			font-family: "Poppins", sans-serif;
+		}
+		nav{
+			display:flex;
+			justify-content: space-around;
+			align-items: center;
+			height:80px;
+			background-color: rgba(9,9,211,1.00);
+			
+		}
+		nav ul{
+			display:flex;
+			justify-content: center;
+		}
+		nav ul li{
+			list-style:none;
+		    margin:0 23px;
+		}
+		nav ul li a{
+			text-decoration:none;
+			color:white;
+		}
+		nav ul li a:hover{
+			text-decoration:none;
+			color: rgba(135,13,249,1.00);
+			font-size: 1.04rm;
+		}
+		main hr{
+			border:0;
+			background: #9c97f1;
+			height:1.2px;
+			margin: 60px 84px;
+			
+		}
+		.left{
+			font-size: 1.5rem;
+		}
+		.firstsection{
+			display:flex;
+			justify-content:space-around;
+			align-items: center;
+			margin: 120px 0p;
+			
+		}
+		.firstsection >div{
+			width:30%;
+			
+		}
+		.leftsection{
+			
+			font-size: 2rem;
+			
+		}
+		.leftsection .button{
+			padding:23px;
+		}
+		
+		
+		.leftsection .btn{
+			
+			padding:12px;
+			background: #1e2167;
+			color: white;
+			border:2px solid white;
+			border-radus:6px;
+			font-size: 20px;
+			cursor: pointer;
+			
+		}
+		.leftsection .btn:hover{
+			
+			padding:12px;
+			background: #2F0AEC;
+			color: white;
+			font-size: 20px;
+			
+			
+		}
+		/* Base styles */
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Individual styles */
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.instagram {
+    background-color: #e1306c;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.youtube {
+    background-color: #ff0000;
+}
+
+/* Hover effect */
+.icon:hover {
+    opacity: 0.8;
+}
+
+		
+		
+		
+/*
+		.rightsection img{
+			margin-top:auto;
+		}
+	
+*/
+		.purple{
+			color:blueviolet;
+		}
+		.textgray{
+			color:gray;
+		}
+		#element{
+			color:blueviolet;
+		}
+		.secondSection{
+			max-width: 80vw;
+			margin:auto;
+			height: 90vh; 
+		}
+		.secondSection h1{
+			font-size: 1.9rem;
+		}
+		
+		.secondSection .box{
+			background:white;
+			width:77vw;
+			height:2px;
+			margin:56px 0;
+			display: flex;
+		}
+		.secondSection .vertical{
+			height:93px;
+			width:1px;
+			background-color: white;
+			margin: 0 120px; 
+		}
+		.thirdSection{
+			max-width: 80vw;
+			margin:auto;
+			height: 100vh; 
+		}
+		.thirdSection h1{
+			font-size: 1.9rem;
+		}
+		
+		.thirdSection .box{
+			background:white;
+			width:77vw;
+			height:2px;
+			margin:56px 0;
+			display: flex;
+		}
+		.thirdSection .vertical{
+			height:93px;
+			width:1px;
+			background-color: white;
+			margin: 0 120px; 
+		}
+		
+	
+        .forthSection{
+			max-width: 80vw; 
+			margin:auto;
+			height: 100vh; 
+		}
+		.forthSection h1{
+			font-size: 1.9rem;
+		}
+		.fourthSection-container {
+			display: flex;
+			justify-content: center; /* Align the children horizontally */
+			align-items: center;     /* Align the children vertically */
+		  }
+		  
+		  .fourthSection-text {
+			width: 50%;
+			margin: 0 40px;
+		  }
+		  
+		.forthSection .project-card{
+			
+			/* width:77vw;
+			height:1px; */
+			margin:56px 0;
+			display: flex;
+		}
+	   .project-card-inner-2{
+		   display: flex;
+		   justify-content: space-around;
+		   align-items: center;
+	   }
+		.project-image{
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			margin: 0 20px;
+		}
+		.forthSection.vertical{
+			height:93px;
+			width:1px;
+			background-color: transparent;
+			margin: 0 120px; 
+		}
+
+		.fifthSection{
+			max-width: 80vw; 
+			margin:auto;
+			height: 100vh; 
+			
+		}
+		.fifthSection h1{
+			font-size: 1.9rem;
+			
+		}
+		.fifthSection .contact-form {
+            display: flex;
+            flex-direction: column;
+            width: 300px; /* Wider form */
+            margin: 0 auto;
+            align-items: center;
+            background-color: transparent; /* Light background for the form */
+            padding: 20px; /* Added padding for better spacing */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+        
+        .fifthSection .contact-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px; /* Space between inputs */
+            border: 2px solid blueviolet;
+            border-radius: 5px; /* Rounded input borders */
+            font-size: 16px; /* Clearer, larger text */
+            color: #333; /* Dark text for better readability */
+            outline: none;
+            transition: all 0.3s ease; /* Smooth transition on focus */
+        }
+        
+        .fifthSection .contact-form input:focus {
+            border-color: #8a2be2; /* Focus border color */
+            box-shadow: 0 0 5px rgba(138, 43, 226, 0.5); /* Soft glow effect on focus */
+        }
+        
+        .fifthSection .contact-form .texthere {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 2px solid blueviolet;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #333;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+        
+        .fifthSection .contact-form .texthere:focus {
+            border-color: #8a2be2;
+            box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+        }
+        
+        .fifthSection .contact-form button {
+            width: 100%;
+            padding: 12px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .fifthSection .contact-form button .submit:hover {
+            background-color: #8a2be2; /* Darker shade on hover */
+        }
+        
+        .fifthSection .contact-form p {
+            font-size: 14px;
+            color: #888; /* Soft text color for any help text */
+            text-align: center;
+        }
+        .fifthSection .contact-form .submit:hover{
+            background-color: #8a2be2; 
+            font-size: large;
+        }
+        
+		
+		.image-top{
+			width:29px;
+			position: relative;
+			top: -32px;
+			left: -9px;
+		}
+		.vertical-title{
+			position: relative;
+			top: 75px;
+			width: 150px;
+			font-size:14px;
+			
+		}
+		.vertical-desc{
+			position: relative;
+			top: 86px;
+			color: gray;
+			width: 150px;
+			font-size: 11px;
+		}
+		footer{
+			background-color:  rgba(9,9,211,1.00);
+		
+		}
+		.footer{
+			display: flex;
+			padding:23px 122px;
+			justify-content: space-evenly;
+		}
+		.footer ul li{
+			list-style:none;
+		}
+		.footer ul li a{
+			text-decoration:none;
+			color: white;
+		}
+	    .footer ul li a:hover{
+			text-decoration:none;
+			color: rgba(135,13,249,1.00);
+			font-size: 1.04rm;
+		}
+		.footer > div{
+			width:123px;
+		}
+		footer .footer-rights{
+			text-align: center;
+			color: gray;
+			padding: 12px 0;
+		}
+		.pre{
+			color:white;
+            font-size: 1.0rem;		
+		
+		}
