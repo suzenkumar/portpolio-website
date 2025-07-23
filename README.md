@@ -1,6 +1,6 @@
 🌐 Portfolio Website Description (General)
 
-![Tech Life Screenshot](https://github.com/suzenkumar/TechLife-Technical-blog/blob/main/Screenshot%202025-07-22%20222859.png)
+![Tech Life Screenshot](Screenshot 2025-07-23 170906.png)
 "Welcome to my portfolio website—a curated showcase of my work, skills, and professional journey. Here, you'll find a selection of projects that highlight my expertise in [your field, e.g., web development, graphic design, photography], along with insights into my creative process, technical capabilities, and personal achievements. Whether you're a potential employer, collaborator, or client, this site is designed to give you a clear and engaging overview of what I do and how I can help bring ideas to life."
 
 
